@@ -62,4 +62,6 @@ typedef struct {
 } DtcChannel_t;
 
 extern DtcChannel_t DtcChannelCfg[DTC_NUM];
+
+void Dtc_OutOfRange(DtcChannel_t* chan);
 #endif // DTC_CFG_H

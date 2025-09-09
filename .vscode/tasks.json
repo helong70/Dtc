@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build DTC (PowerShell)",
+			"type": "shell",
+			"command": ".\\build.bat",
+			"isBackground": false,
+			"problemMatcher": ["$gcc"],
+			"group": "build"
+		}
+	]
+}
